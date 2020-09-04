@@ -41,7 +41,7 @@ class Visits(Resource):
                 count = count + 1
                 
         return {
-                "success": "true",
+                "success": True,
                 "message": "Got visits successfully",
                 "data": all_visits,
                 "code": 200
